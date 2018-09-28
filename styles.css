@@ -1,0 +1,35 @@
+body {
+	font-family: Verdana, sans-serif;
+	color: #333;
+}
+
+.Site {}
+
+.Site-wrapper {
+	max-width: 1400px;
+}
+
+.mainMenu {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.mainMenu img {
+    width: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.MainMenu-items {
+  margin: 10px;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  opacity: 0.75;
+
+  }
+
+.header {
+    font-size: 20px;
+    text-align: center;
+  }
