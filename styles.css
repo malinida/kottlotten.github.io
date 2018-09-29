@@ -1,17 +1,27 @@
 body {
 	font-family: Verdana, sans-serif;
-	color: #333;
+	color: black;
 }
 
 .Site {}
 
 .Site-wrapper {
 	max-width: 1400px;
+  height: 1000px;
+}
+  
+.background-image {
+  background-image: url("file:///Users/MalinHansson/Desktop/Malin%20Privat/Kod/kottlotten.github.io/garden-img.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  height: 1000px;
+
 }
 
 .mainMenu {
   text-align: center;
-  padding-bottom: 20px;
 }
 
 .mainMenu img {
@@ -26,10 +36,39 @@ body {
   color: #333;
   text-decoration: none;
   opacity: 0.75;
+  color: black;
 
   }
 
-.header {
+header {
+    display: block;
+    margin-top: 50px;
+  }
+
+.header-box {
+  background: #ffff;
+  padding: 20px 30px 20px 30px;
+  text-decoration: none;
+  margin: 20px auto;
+  display: block;
+  opacity: 0.8;
+  width: 360px;
+}
+
+.header-title {
     font-size: 20px;
     text-align: center;
+    opacity: 1;
   }
+
+.header-image {
+    background-image: url("https://images.unsplash.com/photo-1496264093734-ffe59b144f9d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3ab24aea61341e49efb53646a4d472f4&auto=format&fit=crop&w=2550&q=80");
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+  }
+
+
+
+
