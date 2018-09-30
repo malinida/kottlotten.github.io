@@ -11,7 +11,7 @@ body {
 }
   
 .background-image {
-  background-image: url("file:///Users/MalinHansson/Desktop/Malin%20Privat/Kod/kottlotten.github.io/garden-img.jpg");
+  background-image: url("https://github.com/malinida/kottlotten.github.io/blob/master/garden-img.jpg?raw=true");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
