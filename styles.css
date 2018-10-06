@@ -1,6 +1,8 @@
 body {
 	font-family: Verdana, sans-serif;
 	color: black;
+  display: flex;
+  flex-direction: column;
 }
 
 .Site {}
@@ -16,11 +18,14 @@ body {
   height: 1000px;
   max-width: 1400px;
   margin-top: 20px;
+  display: flex;
 
 }
 
 .mainMenu {
   text-align: center;
+  height: 60px;
+  background-color: #c9e5d3;  
 }
 
 .mainMenu img {
@@ -39,17 +44,14 @@ body {
 
   }
 
-header {
-    display: block;
-    margin-top: 50px;
-  }
 
 .header-box {
   background: #ffff;
   padding: 20px 30px 20px 30px;
   text-decoration: none;
   margin: 20px auto;
-  display: block;
+  display: flex;
+  flex-direction: column;
   opacity: 0.8;
   width: 360px;
   position: absolute;
